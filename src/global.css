@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #1b1b25;
+}
+
+#root.dark .apexcharts-tooltip {
+  /*background: #1b1b25 !important;*/
+}
